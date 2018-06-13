@@ -13,5 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\FiniteStateAutomata">
+      <UniqueIdentifier>{fff56ff5-8e83-4301-993e-7635d0326516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\FiniteStateAutomata">
+      <UniqueIdentifier>{3827ff8d-7be9-404b-ae2a-f75b1badd724}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FiniteStateAutomata.cpp">
+      <Filter>소스 파일\FiniteStateAutomata</Filter>
+    </ClCompile>
+    <ClCompile Include="AutomataCondition.cpp">
+      <Filter>소스 파일\FiniteStateAutomata</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AutomataInput.cpp">
+      <Filter>소스 파일\FiniteStateAutomata</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FiniteStateAutomata.h">
+      <Filter>헤더 파일\FiniteStateAutomata</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomataState.h">
+      <Filter>헤더 파일\FiniteStateAutomata</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomataCondition.h">
+      <Filter>헤더 파일\FiniteStateAutomata</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomataInput.h">
+      <Filter>헤더 파일\FiniteStateAutomata</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
